@@ -6,18 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>MICHELIN's Top-Rated Restaurants in France</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="">
-  <link rel="stylesheet" href="styles/first_map.css">
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
   <div id="container">
+  <header>
     <h1>MICHELIN's Top-Rated Restaurants in France</h1>
 
     <p>By Zachary Carnell</p>
+  </header>
 
-    <div id="mapFrance"></div>
+    <div id="secondMap" class="map"></div>
+    <p>Information Source: <a href="https://guide.michelin.com/us/en/selection/france/restaurants/3-stars-michelin">MICHELIN Guide</a></p>
 
-    <p class="description">This map shows several meaningful spots in my hometown of Naples, Florida. It includes my favorite place to go at the beach, my favorite place to get slurpees, and my childhood church.</p>
+    <p class="description">This map displays the locations of the 31 restaurants across France that have received the esteemed honor of three MICHELIN stars. The MICHELIN Guide is a leading source on the quality of restaurant experiences all around the world. Its three-star rating system allows consumers to determine which are the best of the best. France, in particular, has more MICHELIN stars than any other country.</p>
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>

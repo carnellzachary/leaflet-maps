@@ -1,4 +1,4 @@
-let map2 = L.map('mapFrance').setView([46.492563, 2.719138], 5.34);
+let map2 = L.map('secondMap').setView([46.492563, 2.719138], 5.34);
 
 for (let i = 0; i < places.length; i++) {
   L.marker([places[i].lat, places[i].long]).bindPopup('<h3>' + places[i].placeName + '</h3>' + '<p>' + places[i].desc + '</p>').addTo(map2);
