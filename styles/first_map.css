@@ -1,0 +1,61 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  background: #ccffff;
+  color: #000;
+  font-family: 'Verdana', sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 1rem;
+  max-width: 700px;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.50) 0px 5px 10px;
+  margin: 0;
+}
+
+.description {
+  width: 100%;
+  line-height: 2rem;
+}
+
+@media screen and (max-width: 650px) {
+  #container {
+    padding: 1rem 0 1rem 0;
+  }
+
+  .description {
+    padding: 1rem;
+  }
+
+  #map {
+    height: 600px;
+    width: 100%;
+    margin-top: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.50) 0px 5px 10px;
+  }
+}
