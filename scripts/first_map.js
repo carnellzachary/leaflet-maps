@@ -1,8 +1,8 @@
-let map = L.map('map').setView([26.158731, -81.778160], 13.28);
-let churchMarker = L.marker([26.173320, -81.740273]).addTo(map);
-let beachMarker = L.marker([26.131830, -81.806000]).addTo(map);
-let mallMarker = L.marker([26.17, -81.796]).addTo(map);
-let slurpeeMarker = L.marker([26.163420, -81.767750]).addTo(map);
+let map1 = L.map('map').setView([26.158731, -81.778160], 13.28);
+let churchMarker = L.marker([26.173320, -81.740273]).addTo(map1);
+let beachMarker = L.marker([26.131830, -81.806000]).addTo(map1);
+let mallMarker = L.marker([26.17, -81.796]).addTo(map1);
+let slurpeeMarker = L.marker([26.163420, -81.767750]).addTo(map1);
 
 churchMarker.bindPopup("<b>Center Point Community Church</b><br>This is the church I grew up in.");
 beachMarker.bindPopup("<b>Naples Pier</b><br>This is my favorite place to go at the beach.");
