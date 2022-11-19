@@ -1,4 +1,4 @@
-let map1 = L.map('map').setView([26.158731, -81.778160], 13.28);
+let map1 = L.map('firstMap').setView([26.158731, -81.778160], 13.28);
 let churchMarker = L.marker([26.173320, -81.740273]).addTo(map1);
 let beachMarker = L.marker([26.131830, -81.806000]).addTo(map1);
 let mallMarker = L.marker([26.17, -81.796]).addTo(map1);
